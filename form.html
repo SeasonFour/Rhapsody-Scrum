@@ -4,93 +4,80 @@
 <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
 <title>patient Form</title>
 <link href="css/bootstrap.css" rel="stylesheet">
-<<<<<<< HEAD
-  <link href="css/bootstrap-theme.css" rel="stylesheet">
-  <link href="css/styles.css" rel="stylesheet">
-  <!-- font-awsome -->
-  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.4.0/css/font-awesome.min.css">
-  <!-- fonts -->
-  <link href='https://fonts.googleapis.com/css?family=Raleway' rel='stylesheet' type='text/css'>
-  	<!-- JavaScript  -->
-  <script src="js/jquery-1.11.3.min.js"></script>
-  <script src="js/modernizr.js"></script>s
-=======
 <link href="css/bootstrap-theme.css" rel="stylesheet">
-  <link href="css/styles.css" rel="stylesheet">
+<link href="css/styles.css" rel="stylesheet">
 
-  <script src="js/jquery-1.11.3.min.js"></script>
-<script type="text/javascript" src="view.js"></script>
->>>>>>> olal
+<script src="js/jquery-1.11.3.min.js"></script>
+<script type="text/javascript" src="js/view.js"></script>
+<!-- AngularJS -->
+<script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.3.15/angular.min.js"></script>
 
+<!-- Firebase -->
+<script src="https://cdn.firebase.com/js/client/2.2.4/firebase.js"></script>
+
+<!-- AngularFire -->
+<script src="https://cdn.firebase.com/libs/angularfire/1.1.3/angularfire.min.js"></script>
 </head>
-<body id="main_body" >
-
-
-	<img id="top" src="img/top.png" alt="">
-	<div id="form_container">
-
-		<h1><a>PATIENTS DATA</a></h1>
-		<form id="form_1080938" class="form-control" method="post" action="">
-					<div class="form_description">
-			<h2>Fill In The Form</h2>
-			<p>Blah blah blah. blah.</p>
-		</div>
-			<ul >
-
-					<li id="li_1" >
-		<label class="description" for="element_1">Name </label>
-		<span>
-			<input id="element_1_1" name= "element_1_1" class="element text form-control" maxlength="255" size="8" value=""/>
-			<label>First</label>
-		</span>
-		<span>
-			<input id="element_1_2" name= "element_1_2" class="element text" maxlength="255" size="14" value=""/>
-			<label>Last</label>
-		</span>
-		</li>		<li id="li_3" >
-		<label class="description" for="element_3">Disease </label>
-		<div>
-		<select class="element select medium" id="element_3" name="element_3">
-			<option value="" selected="selected"></option>
-<option value="1" >First option</option>
-<option value="2" >Second option</option>
-<option value="3" >Third option</option>
-
-		</select>
-		</div>
-		</li>
-
-	<li id="li_3" >
-    <label class="description" for="element_3">County </label>
-
-    <div>
-    <select class="element select medium" id="element_3" name="element_3">
-      <option value="" selected="selected"></option>
-<option value="1" >First option</option>
-<option value="2" >Second option</option>
-<option value="3" >Third option</option>
-
-    </select>
+<body>
+  <div id="wrapper">
+    <div class="container">
+	<!-- <img id="top" src="img/top.png" alt=""> -->
+    <h1>PATIENTS DATA</h1>
+<!-- form -->
+<form class="form-horizontal" action="" name="" method="post">
+  <div class="form-group">
+    <label for="patientname" class="col-sm-2 control-label">First Name</label>
+    <div class="col-sm-10">
+      <input type="text" class="form-control" id="inputname" placeholder="First Name" name="first_name">
     </div>
+  </div>
 
-    </li>
+  <div class="form-group">
+    <label for="secondname" class="col-sm-2 control-label">Second Name</label>
+    <div class="col-sm-10">
+      <input type="text" class="form-control" id="inputsecondname" placeholder="Second Name" name="second_name">
+    </div>
+  </div>
+
+  <div class="form-group">
+    <label for="inputlocation" class="col-sm-2 control-label">Disease</label>
+    <div class="col-sm-10">
+      <select class="form-control">
+        <option value="">Malaria</value>
+
+      </select
+    </div>
+  </div>
+  <div class="form-group">
+    <div class="col-sm-offset-2 col-sm-10">
+    </div>
+  </div>
+  <div class="form-group">
+    <label for="inputcounty" class="col-sm-2 control-label">County</label>
+    <div class="col-sm-10">
+      <select class="form-control">
+        <option value="">Nairobi</value>
+
+      </select
+    </div>
+  </div>
+
+  <div class="form-group">
+    <div class="col-sm-offset-2 col-sm-10">
+    </div>
+  </div>
+  <div class="form-group">
+    <div class="col-sm-offset-2 col-sm-10">
+      <button type="submit" class="btn btn-default">Submit</button>
+    </div>
+  </div>
+</form>
 
 
-					<li class="buttons">
-			    <input type="hidden" name="form_id" value="1080938" />
 
-				<input id="saveForm" class="button_text" type="submit" name="submit" value="Submit" />
-		</li>
-			</ul>
-		</form>
-		<div id="footer">
-<<<<<<< HEAD
-			
-=======
-		<a href=""> </a>
->>>>>>> olal
-		</div>
-	</div>
-	<img id="bottom" src="img/bottom.png" alt="">
-	</body>
+
+
+</div>
+</div>
+</body>
 </html>
