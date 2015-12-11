@@ -1,10 +1,9 @@
-<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
-<html xmlns="http://www.w3.org/1999/xhtml">
+<!DOCTYPE html >
+<html>
 <head>
 <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
 <title>patient Form</title>
 <link href="css/bootstrap.css" rel="stylesheet">
-<<<<<<< HEAD
   <link href="css/bootstrap-theme.css" rel="stylesheet">
   <link href="css/styles.css" rel="stylesheet">
   <!-- font-awsome -->
@@ -13,84 +12,118 @@
   <link href='https://fonts.googleapis.com/css?family=Raleway' rel='stylesheet' type='text/css'>
   	<!-- JavaScript  -->
   <script src="js/jquery-1.11.3.min.js"></script>
-  <script src="js/modernizr.js"></script>s
-=======
+  <script src="js/modernizr.js"></script>
 <link href="css/bootstrap-theme.css" rel="stylesheet">
-  <link href="css/styles.css" rel="stylesheet">
+<link href="css/styles.css" rel="stylesheet">
 
-  <script src="js/jquery-1.11.3.min.js"></script>
+ <script src="js/jquery-1.11.3.min.js"></script>
 <script type="text/javascript" src="view.js"></script>
->>>>>>> olal
-
 </head>
-<body id="main_body" >
+<body>
+<div id="wrapper">
+	<div class="container">
+		<!-- form -->
+<div>		
+		<p>INPUT PATIENT DETAILS</p>
+</div>
+<br>
 
-
-	<img id="top" src="img/top.png" alt="">
-	<div id="form_container">
-
-		<h1><a>PATIENTS DATA</a></h1>
-		<form id="form_1080938" class="form-control" method="post" action="">
-					<div class="form_description">
-			<h2>Fill In The Form</h2>
-			<p>Blah blah blah. blah.</p>
-		</div>
-			<ul >
-
-					<li id="li_1" >
-		<label class="description" for="element_1">Name </label>
-		<span>
-			<input id="element_1_1" name= "element_1_1" class="element text form-control" maxlength="255" size="8" value=""/>
-			<label>First</label>
-		</span>
-		<span>
-			<input id="element_1_2" name= "element_1_2" class="element text" maxlength="255" size="14" value=""/>
-			<label>Last</label>
-		</span>
-		</li>		<li id="li_3" >
-		<label class="description" for="element_3">Disease </label>
-		<div>
-		<select class="element select medium" id="element_3" name="element_3">
-			<option value="" selected="selected"></option>
-<option value="1" >First option</option>
-<option value="2" >Second option</option>
-<option value="3" >Third option</option>
-
-		</select>
-		</div>
-		</li>
-
-	<li id="li_3" >
-    <label class="description" for="element_3">County </label>
-
-    <div>
-    <select class="element select medium" id="element_3" name="element_3">
-      <option value="" selected="selected"></option>
-<option value="1" >First option</option>
-<option value="2" >Second option</option>
-<option value="3" >Third option</option>
-
-    </select>
+<form class="form-horizontal">
+  <div class="form-group">
+    <label for="fname" class="col-sm-2 control-label">First Name</label>
+    <div class="col-sm-10">
+      <input type="text" class="form-control" id="fame" placeholder="First Name">
     </div>
+  </div>
+  <div class="form-group">
+    <label for="secondname" class="col-sm-2 control-label">Second Name</label>
+    <div class="col-sm-10">
+      <input type="text" class="form-control" id="sname" placeholder="Second Name">
+    </div>
+  </div>
 
-    </li>
+<div class="form-group">
+    <label for="disease" class="col-sm-2 control-label">Disease</label>
+    <div class="col-sm-10">
+      <select class="form-control">
+          	<option value="malaria">Malaria</option>
+          	<option value="pneumonia">Pneumonia</option>
+          	<option value="cancer">Cancer</option>
+          	<option value="aids">HIV/AIDS</option>
+          	<option value="tb">Tuberculosis</option>
+          	<option value="anamemia">Anaemia</option>
+          	<option value="heartdisease">Heart Diseases</option>
+          	<option value="menengitis">Menengitis</option>
+          </select>
+    </div>
+  </div>
+
+<div class="form-group">
+    <label for="county" class="col-sm-2 control-label">County</label>
+    <div class="col-sm-10">
+      <select class="form-control">
+          	<option value="">Mombasa County</option>
+          	<option value="">Kwale County</option>
+          	<option value="">Kilifi County</option>
+          	<option value="">Tana River</option>
+          	<option value="">Lamu</option>
+          	<option value="">Taita Taveta</option>
+          	<option value="">Garrisa</option>
+          	<option value="">Wajir</option>
+          	<option value="">Mandera</option>
+          	<option value="">Marsabit</option>
+          	<option value="">Isiolo</option>
+          	<option value="">Meru</option>
+          	<option value="">Tharaka-Nithi</option>
+          	<option value="">Embu</option>
+          	<option value="">Kitui</option>
+          	<option value="">Machakos</option>
+          	<option value="">Makueni</option>
+          	<option value="">Nyandarua</option>
+          	<option value="">Nyeri</option>
+          	<option value="">Kirinyaga</option>
+          	<option value="">Muranga</option>
+          	<option value="">Kiambu</option>
+          	<option value="">Turkana</option>
+          	<option value="">West Pokot</option>
+          	<option value="">Samburu</option>
+          	<option value="">Trans-Nzoia</option>
+          	<option value="">Uasin-Gishu</option>
+          	<option value="">Elgeyo-Marakwet</option>
+          	<option value="">Nandi</option>
+          	<option value="">Baringo</option>
+          	<option value="">Lakipia</option>
+          	<option value="">Nakuru</option>
+          	<option value="">Narok</option>
+          	<option value="">Kajiado</option>
+          	<option value="">Kericho</option>
+          	<option value="">Bomet</option>
+          	<option value="">Kakamega</option>
+          	<option value="">Vihiga</option>
+          	<option value="">Bungoma</option>
+          	<option value="">Busia</option>
+          	<option value="">Siaya</option>
+          	<option value="">Kisumu</option>
+          	<option value="">Homabay</option>
+          	<option value="">Migori</option>
+          	<option value="">Kisii</option>
+          	<option value="">Nyamira</option>
+          	<option value="">Nairobi County</option>
+          </select>
+    </div>
+  </div>
+  <div class="form-group">
+    <div class="col-sm-offset-2 col-sm-10">
+      <button type="submit" class="btn btn-default">Submit</button>
+    </div>
+  </div>
+</form>
 
 
-					<li class="buttons">
-			    <input type="hidden" name="form_id" value="1080938" />
 
-				<input id="saveForm" class="button_text" type="submit" name="submit" value="Submit" />
-		</li>
-			</ul>
-		</form>
-		<div id="footer">
-<<<<<<< HEAD
-			
-=======
-		<a href=""> </a>
->>>>>>> olal
-		</div>
+
+
 	</div>
-	<img id="bottom" src="img/bottom.png" alt="">
-	</body>
+</div>
+</body>
 </html>
