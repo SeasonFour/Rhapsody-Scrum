@@ -72,3 +72,19 @@ body {
     top: 1px;
 }
 
+/*login css*/
+
+fieldset{
+    
+    border: none;
+    text-align: center;
+    background: transparent;
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    margin-top: -180px;
+    margin-left: -227.5px;
+    padding: 0;
+    width: 455px;
+}
+
