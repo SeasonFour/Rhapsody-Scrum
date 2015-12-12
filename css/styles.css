@@ -79,12 +79,43 @@ fieldset{
     border: none;
     text-align: center;
     background: transparent;
+    background-color: #BDBDBD;
     position: fixed;
     top: 50%;
     left: 50%;
     margin-top: -180px;
     margin-left: -227.5px;
     padding: 0;
-    width: 455px;
+    width: 450px;
+    height: 225px;
+}
+
+.container-form {
+    /*background: rgba(255,255,255,0.7);*/
+    padding left: 40px;
+    margin-left: 20px;
+    
+    /*z-index: 999999999;
+    -webkit-box-shadow: 0 6px 6px rgba(0,0,0,0.3);
+    -moz-box-shadow: 0 6px 6px rgba(0,0,0,0.3);
+    box-shadow: 0 6px 6px rgba(0,0,0,0.3);
+    -webkit-border-radius: 3px;
+    -moz-border-radius: 3px;
+    -ms-border-radius: 3px;
+    -o-border-radius: 3px;
+    border-radius: 3px;
+    overflow: hidden;*/
+
+    width: 375px; 
+        margin: 0;
+    padding: 0;
+    border: 0;
+    font: inherit;
+    font-size: 100%;
+    vertical-align: baseline;
+}
+
+p{
+    margin-left: 10px;
 }
 
